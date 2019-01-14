@@ -1,5 +1,6 @@
-//DrinkAbout = function(){
-    function whatCanIDrink(age){
+DrinkAbout = function(){
+
+    this.whatCanIDrink = function(age){
         if(age >= 0 && age < 130){
             if(age < 14 ){
                 return "Drink Toddy";
@@ -14,4 +15,4 @@
             return "Sorry. I can’t tell what drink because that age is incorrect!";
         }
     };
-//}
+}
